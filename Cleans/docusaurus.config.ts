@@ -10,9 +10,9 @@ const config: Config = {
   tagline: 'Дока', // Описание сайта на начальной странице
   favicon: 'img/favicon.ico', // Иконка сайта
   url: 'https://vyragosa.github.io/', // Адрес gitlab pages, обычно https://<username>.github.io
-  baseUrl: 'cleans-doc', // Базовый url, обычно название репозитория
+  baseUrl: 'Cleans-doc', // Базовый url, обычно название репозитория
   organizationName: 'vyragosa', // Имя GitHub пользователя
-  projectName: 'cleans-doc', // Имя репозитория
+  projectName: 'Cleans-doc', // Имя репозитория
   onBrokenLinks: 'warn', // Чтобы не падать при наличии неработающих ссылок
   onBrokenMarkdownLinks: 'warn', // Чтобы не падать при наличии неработающих ссылок
   trailingSlash: false,
