@@ -1,5 +1,5 @@
 {
-  "name": "parking",
+  "name": "cleans",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "dotenv -e .env docusaurus deploy",
+    "deploy": "dotenv -e.env docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -15,23 +15,21 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "redocusaurus": "^2.1.2",
+    "docusaurus-plugin-drawio": "^0.4.0",
     "@akebifiky/remark-simple-plantuml": "^1.0.2",
     "@docusaurus/core": "3.6.3",
     "@docusaurus/preset-classic": "3.6.3",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
-    "docusaurus-plugin-drawio": "^0.4.0",
-    "dotenv": "^16.4.5",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "redocusaurus": "^2.1.2"
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.6.3",
     "@docusaurus/tsconfig": "3.6.3",
     "@docusaurus/types": "3.6.3",
-    "dotenv-cli": "^7.4.4",
     "typescript": "~5.6.2"
   },
   "browserslist": {
